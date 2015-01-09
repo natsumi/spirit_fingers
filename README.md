@@ -1,18 +1,18 @@
 # SpiritFingers
 
 A collection of Pry add-ons for Rails.
-
-pry-rails https://github.com/rweng/pry-rails
-pry https://github.com/pry/pry
-pry-doc https://github.com/pry/pry-doc
-pry-stack_explorer https://github.com/pry/pry-stack_explorer
-pry-exception_explorer https://github.com/pry/pry-exception_explorer
-pry-byebug https://github.com/deivid-rodriguez/pry-byebug
-pry-coolline https://github.com/pry/pry-coolline
-pry-rescue https://github.com/ConradIrwin/pry-rescue
-pry-clipboard https://github.com/hotchpotch/pry-clipboard
-hirb https://github.com/cldwalker/hirb
-awesome_print https://github.com/michaeldv/awesome_print
+[Pry](https://github.com/pry/pry)
+[pry-rails](https://github.com/rweng/pry-rails)
+[pry](https://github.com/pry/pry)
+[pry-doc](https://github.com/pry/pry-doc)
+[pry-stack_explorer](https://github.com/pry/pry-stack_explorer)
+[pry-exception_explorer](https://github.com/pry/pry-exception_explorer)
+[pry-byebug](https://github.com/deivid-rodriguez/pry-byebug)
+[pry-coolline](https://github.com/pry/pry-coolline)
+[pry-rescue](https://github.com/ConradIrwin/pry-rescue)
+[pry-clipboard](https://github.com/hotchpotch/pry-clipboard)
+[hirb](https://github.com/cldwalker/hirb)
+[awesome_print](https://github.com/michaeldv/awesome_print)
 
 ## Installation
 
