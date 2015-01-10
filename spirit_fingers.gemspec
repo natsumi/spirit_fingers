@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
 
   spec.required_ruby_version = '>= 2.0.0'
+  spec.add_runtime_dependency 'railties', '>= 4.0'
   spec.add_runtime_dependency 'pry', '~> 0.10.1'
   spec.add_runtime_dependency 'pry-rails', '~> 0.3.2'
   spec.add_runtime_dependency 'pry-doc', '~> 0.6.0'
