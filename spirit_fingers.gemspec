@@ -26,7 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'pry-rails', '~> 0.3.2'
   spec.add_runtime_dependency 'pry-doc', '~> 0.6.0'
   spec.add_runtime_dependency 'pry-stack_explorer', '~> 0.4.9.1'
-  spec.add_runtime_dependency 'pry-exception_explorer', '~> 0.2.3'
   spec.add_runtime_dependency 'pry-byebug', '~> 2.0'
   spec.add_runtime_dependency 'pry-coolline', '~> 0.2'
   spec.add_runtime_dependency 'pry-rescue', '~>1.4'
