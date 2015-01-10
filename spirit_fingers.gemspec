@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'pry-coolline', '~> 0.2'
   spec.add_runtime_dependency 'pry-rescue', '~>1.4'
   spec.add_runtime_dependency 'pry-clipboard', '~> 0.1'
-  spec.add_runtime_dependency 'hirb', '~> 0.7.22'
+  spec.add_runtime_dependency 'hirb', '~> 0.7.2'
   spec.add_runtime_dependency 'awesome_print', '~> 1.6'
 
 end
