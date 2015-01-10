@@ -50,7 +50,7 @@ begin
   require "awesome_print"
   # User awesome print by default
   AwesomePrint.pry!
-  AwesomePrint.defaults = { indent: 2 }
+  AwesomePrint.defaults = { indent: -2 }
 rescue LoadError => e
   warn "can't load awesome_print"
 end
