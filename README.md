@@ -34,7 +34,8 @@ Or install it yourself as:
 ## Useful ~/.pryc Config
 Adding the following to your ~/.pryc will set some nice default configurations for the plugin:
 
-```
+```ruby
+# pry-clipboard configuration
 begin
   require 'pry-clipboard'
   # aliases
@@ -44,10 +45,15 @@ rescue LoadError => e
   warn "can't load pry-clipboard"
 end
 
+# awesome_print configuration
 begin
-require "awesome_print"
-# User awesome print by default
-AwesomePrint.pry!
+  require "awesome_print"
+  # User awesome print by default
+  AwesomePrint.pry!
+  AwesomePrint.defaults = { indent: 2 }
+rescue LoadError => e
+  warn "can't load awesome_print"
+end
 
 if defined?(PryByebug)
   Pry.commands.alias_command 'c', 'continue'
@@ -58,7 +64,7 @@ end
 
 # Hit Enter to repeat last command
 Pry::Commands.command /^$/, "repeat last command" do
-  _pry_.run_command Pry.history.to_a.last
+_pry_.run_command Pry.history.to_a.last
 end
 
 ```
