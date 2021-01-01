@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'pry-doc', '> 0.13'
   spec.add_runtime_dependency 'pry-rails', '>= 0.3'
   spec.add_runtime_dependency 'pry-rescue', '> 1.4'
-  spec.add_runtime_dependency 'pry-stack_explorer', '~> 0.4.9'
+  spec.add_runtime_dependency 'pry-stack_explorer', '>= 0.4.9', '< 0.7.0'
   spec.add_runtime_dependency 'railties', '>= 5.0.0'
 end
